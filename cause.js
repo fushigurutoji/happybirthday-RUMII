@@ -2,22 +2,22 @@
  const reasons = [
     { 
         text: "You’re such a kind and wonderful person, and I feel lucky to share such a good bond with you. 💖", 
-        emoji: "🌟",
+        emoji: "🎉",
         gif: "gif1.gif"
     },
     { 
         text: "May your day be filled with love, laughter, and endless joy. 🌸 ", 
-        emoji: "💗",
+        emoji: "🎂",
         gif: "gif2.gif"
     },
     { 
         text: "Wishing you success, happiness, and everything your heart desires. ✨ ", 
-        emoji: "💕",
+        emoji: "🎁",
         gif: "gif1.gif"
     },
     { 
         text: "Stay the amazing girl you are—always spreading positivity around. Have the happiest year ahead! 🥳 ", 
-        emoji: "🌟",
+        emoji: "🎉",
         gif: "gif2.gif"
     }
 ];
@@ -117,7 +117,7 @@ shuffleButton.addEventListener('click', () => {
 
 // Floating elements function (same as before)
 function createFloatingElement() {
-    const elements = ['🌸', '✨', '💖', '🦋', '⭐'];
+    const elements = ['🎉', '🎂', '🎁', '🎉', '🎁'];
     const element = document.createElement('div');
     element.className = 'floating';
     element.textContent = elements[Math.floor(Math.random() * elements.length)];
